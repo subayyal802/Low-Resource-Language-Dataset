@@ -36,50 +36,11 @@ This repository contains the dataset and code files for the project *Breaking La
 - `Ratios-Initial`: Initial length ratios of articles to summaries.
 - `TestRatio-512`: Length ratios for the test set (512 tokens).
 
----
 
 ## How to Use
 
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone <[repository-link][https://github.com/subayyal802/Low-Resource-Language-Dataset]/>
+git clone https://github.com/subayyal802/Low-Resource-Language-Dataset
 
-### 2. Explore the Dataset
-The dataset files are organized into JSONL and text files for various processing and analysis purposes. Navigate to the `data/` directory to access them.
-
-
-### 3. Run the Code
-Open the Jupyter notebooks (`.ipynb` files) to:
-- Scrape additional data: Use the scraping code to collect articles, topics, and summaries.
-- Preprocess and tokenize the dataset: Use the preprocessing code to clean and prepare the data for NLP tasks.
-
-
-
-### Dataset Format
-
-#### JSONL Files:
-Each line in the file represents a JSON object containing:
-- Article: Text of the article.
-- Topic: Category or topic of the article.
-- Summary: Summary of the article.
-
-#### Text Files:
-Plain text files contain token lengths, ratios, and logs generated during preprocessing.
-
----
-
-### Citation
-
-If you use this dataset or code in your research, please cite:
-```bibtex
-@article{Subayyal2024,
-  title={Breaking Language Barriers: Dataset Development for Low Resource Language},
-  author={Subayyal Sheikh, Yasir Jan, Masab A. Javaid, Ammad Khalil, Jebran Khan},
-  journal={PeerJ Computer Science},
-  year={2024}
-}
-
-### License
-
-This repository is distributed under the MIT License. See the `LICENSE` file for details.
